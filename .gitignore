@@ -1,0 +1,38 @@
+.# Python artifacts
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+*.bak
+
+# Environment files
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Notebooks checkpoints
+.ipynb_checkpoints
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# VSCode settings
+.vscode/
+
+# Jupyter runtime
+*.log
+*.out
+
+# Kubernetes config (optional)
+k8s/*.yaml.backup
+
+# ngrok stuff
+ngrok.yml
+
+# Any saved browser files
+*.swp

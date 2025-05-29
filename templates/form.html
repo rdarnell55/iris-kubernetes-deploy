@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Iris Classifier</title>
+</head>
+<body>
+    <h2>Predict Iris Flower</h2>
+    <form method="post">
+        <label>Sepal Length:</label>
+        <input type="number" name="sepal_length" step="any" required><br><br>
+
+        <label>Sepal Width:</label>
+        <input type="number" name="sepal_width" step="any" required><br><br>
+
+        <label>Petal Length:</label>
+        <input type="number" name="petal_length" step="any" required><br><br>
+
+        <label>Petal Width:</label>
+        <input type="number" name="petal_width" step="any" required><br><br>
+
+        <input type="submit" value="Predict">
+    </form>
+
+    {% if result %}
+        <h3>{{ result }}</h3>
+    {% endif %}
+</body>
+</html>
